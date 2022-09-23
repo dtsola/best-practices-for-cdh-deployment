@@ -326,7 +326,7 @@ mkdir -p /var/www/html/cloudera-repos/cm6
 # 将下载好的rmp安装包上传到/var/www/html/cloudera-repos/cm6
 ```
 
-![](images/1.jpg)
+![](https://pan.bilnn.com/api/v3/file/sourcejump/YqEkzwcv/xSsVTEwYZPDMNAsadpvR6lf2sw8WE4mH6QNlnksTIBo*)
 
 ``` shell
 # 创建仓库
@@ -359,14 +359,14 @@ yum install -y cloudera-manager-daemons  cloudera-manager-server
 # 安装完CM后/opt/ 下会出现cloudera目录
 ```
 
-![](images/2.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/KPZoLWIQ/rE5_Sam4NcoroEsq-DIAKXSI4zC3Th_Pxq3HFBr0mFY*)
 
 ``` shell
 #上传CDH-6.3.2-1.cdh6.3.2.p0.1605554-el7.parcel到/opt/cloudera/parcel-repo目录
 mv CDH-6.3.2-1.cdh6.3.2.p0.1605554-el7.parcel /opt/cloudera/parcel-repo/
 ```
 
-![](images/3.jpg)
+![](https://pan.bilnn.com/api/v3/file/sourcejump/QBpqm8Tb/U6r0bHDHXUpUw9I5oe76ubJ4HAHOYa0Ko9QXCdM2jg0*)
 
 ```shell
 # 执行校验
@@ -375,7 +375,7 @@ sha1sum CDH-6.3.2-1.cdh6.3.2.p0.1605554-el7.parcel | awk '{ print $1 }' > CDH-6.
 /opt/cloudera/cm/schema/scm_prepare_database.sh mysql scm scm scmscm
 ```
 
-![](images/4.jpg)
+![](https://pan.bilnn.com/api/v3/file/sourcejump/YqEkzxuv/axD_O2b-a0H1m06IK8Zkew4iiXxVuUew9nTOOoO7xko*)
 
 ```shell
 # 启动服务
@@ -390,39 +390,39 @@ systemctl status cloudera-scm-server.service
 
 用户名密码：admin/admin
 
-![](images/5.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/BoMKQbS2/1717BXYrrWeGOnX2biEX6Hq0C_YWJTPvX8MANh23u2k*)
 
-![](images/6.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/NKWDm4iW/mShm0t7JbCwFwn7tKyO9H8Bhj7AvbddjbJBY6TDZoFk*)
 
-![](images/7.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/396kb7sD/WyezjqZGvvw_sh4O-3vSlyMTwojYBDxh0nZYp8_3NZ0*)
 
-![](images/8.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/16le8kcw/eE7CYIyNhgKH8LaWmyKDkY5X6AUiTQu7xZXK4vwJrPs*)
 
-![](images/12.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/BoMKQeH2/G348o_6_tNk-jD13Ys4p920bLky-2RQtjChme2_GfZQ*)
 
 ***无需安装JDK***
 
-![](images/9.jpg)
+![](https://pan.bilnn.com/api/v3/file/sourcejump/49dpXZiZ/JcAuqYyGEfPKc0kP-315C1YjG7MK2YRuF61uifWRdK8*)
 
-![](images/10.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/QBpqmvhb/I0c1dMfa_OucJsGxdJ7qY2vx1eSYYSCTMXtYd2ALHjg*)
 
 ***如果这部安装失败就移除 agent 并重启服务器
 yum remove -y cloudera-manager-agent
 reboot #重启后一定要注意事前禁用了防火墙***
 
-![](images/11.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/396kbKiD/w54qS1VP2DERlrXaqBSLa5xIh8oueL7w3Y9ni0mKIG0*)
 
-![](images/13.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/NKWDm8TW/04ootcJGMnvNQGMWkBuhg8vBqW7DB6iU5XIxejuMIZs*)
 
-![](images/14.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/16le82Iw/-ZYKC6zFm0th-ETbMx5J4aHLTxyiwGpaWTXNFxTiwYw*)
 
-![](images/15.jpg)
+![](https://pan.bilnn.com/api/v3/file/sourcejump/85PGBrcW/dUSwUr6jxIw2ZpAk5efYF3Ax_gcwbGyxkc_BaJVb50k*)
 
-![](images/16.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/aeNd84cl/NOJBZLNbEJIBuDjh9JeFPWQiYvmTldHnUOQPxz0dIDU*)
 
-![](images/17.jpg)
+![](https://pan.bilnn.com/api/v3/file/sourcejump/Pzynm6TO/YTN80eHAJclOoxizMorsK1sW4ek6szX4LUwpPjrGkR8*)
 
-![](images/18.jpg)
+![](https://pan.bilnn.cn/api/v3/file/sourcejump/bGEvPQuY/J_ptdSRpJkuMLvxQD8g9tWFPnTGROH0MWzaDlOmgbH0*)
 ***完成安装***
-![](images/19.jpg)
+![](https://pan.bilnn.com/api/v3/file/sourcejump/XqEMezCd/CH9qDQbZc23A81st_JBLnQZRORaV9Mo84y7dgL11a5M*)
 
